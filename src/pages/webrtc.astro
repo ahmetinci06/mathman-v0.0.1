@@ -1,0 +1,39 @@
+---
+import LayoutNoHeader from "../layouts/LayoutNoHeader.astro";
+import Title from "@components/atoms/Title/Title.astro";
+import Button from "@components/atoms/Button/Button.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<script>
+ document.getElementById('backButton').addEventListener('click', function() {
+    window.history.back();
+  });
+  </script>
+
+<Layout>
+  <section class="error">
+    <Title title="WebRtc Demo" size="big" />
+    <p class="error__message">Beklemede Kalın.</p>
+    <Button text="Git" id="backButton"/>
+  </section>
+</Layout>
+
+<style>
+  .error {
+    width: 100%;
+    min-height: 100dvh;
+    display: grid;
+    place-content: center;
+    justify-items: center;
+    gap: 1rem;
+  }
+
+  .error__message {
+    font-size: 1.8rem;
+  }
+
+  .error > *:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+</style>
