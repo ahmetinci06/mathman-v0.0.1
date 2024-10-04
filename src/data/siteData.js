@@ -1,5 +1,5 @@
 export const siteData = {
-    siteTitle:"Mathman",
+    siteTitle:"Soner Hoca",
     siteLogo:"../img/branding/astro.png",
     siteDesc:"",
     siteSlogan:""

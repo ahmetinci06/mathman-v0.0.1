@@ -1,4 +1,4 @@
 
 
-export const SITE_TITLE = 'Frida IA';
-export const SITE_DESCRIPTION = 'El más potente generador de imágenes IA';
+export const SITE_TITLE = 'Soner Hoca ile Matematik';
+export const SITE_DESCRIPTION = 'Benimle Birlikte Matematiğe Yeniden Merhaba Deyin';
