@@ -2,19 +2,7 @@
 
 Base astro is a clean template to start a new landing page project, that includes a gradient background and responsive hamburger/dropdown menu 💜🚀
 
-
-## Use this template by running this command:
-
-```
-npm create astro@latest -- --template  SofiDevO/base-astro
-```
-
-
-
-Propuesta
-
-![Atomic design](./public/img/atomic-design.webp)
-
+# Project Structure
 ```
 📦src
  ┣ 📂components
@@ -41,3 +29,17 @@ Propuesta
  ┣ 📜consts.ts
  ┗ 📜env.d.ts
  ```
+
+## Use this template by running this command:
+
+```
+npm create astro@latest -- --template  SofiDevO/base-astro
+```
+
+
+
+Propuesta
+
+![Atomic design](./public/img/atomic-design.webp)
+
+
