@@ -4,7 +4,7 @@ import "./HeaderMenu.css";
 import HamburgerBtn from "../HamburgerButton/HamburgerButton";
 
 const HeaderMenu = () => {
-  // panel debe desplegarse al hacer click en el botonHamburgerMenu
+  // panel, HamburgerMenü butonuna tıklandığında açılmalıdır
   const [isActive, setIsActive] = useState(false);
 
   const toggleActive = () => {
